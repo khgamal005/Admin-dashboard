@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+.App {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #111;
+}
+@media  screen and (max-width: 480px)   {
+  .App{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+::-webkit-scrollbar {
+  background-color: #111;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00464e;
+}
